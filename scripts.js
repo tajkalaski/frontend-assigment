@@ -36,7 +36,7 @@ app.appendChild(container);
 for (var i = 0; i < movieList.length; i++) {
 
     // the url for the omdbapi films
-    let url = "http://www.omdbapi.com/?t=" + movieList[i].name + "&apikey=4e53d79";
+    let url = "https://www.omdbapi.com/?t=" + movieList[i].name + "&apikey=4e53d79";
     const video = document.createElement('iframe');
     video.setAttribute('src', "https://www.youtube.com/embed/" + movieList[i].trailer );
 

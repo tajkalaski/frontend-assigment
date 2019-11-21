@@ -54,6 +54,7 @@ for (var i = 0; i < movieList.length; i++) {
 
                 let image = document.createElement('img');
                 image.setAttribute('src', movie.Poster );
+                image.setAttribute('alt', 'poster');
 
                 //Create an h1 and set the text content to the film's title
                 const h1 = document.createElement('h1');
